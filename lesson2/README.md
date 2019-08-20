@@ -87,7 +87,11 @@ step 7: name your rule, click finish
 
 How to test a running instance of Apache Tomcat (on port 8080)
 
-step 1: Ask steven because google isnt helping XD 
+step 1: open chrome
+
+step 2: type "localhost:8080" in the url box
+
+step 3: the page will tell you that its working, if not the page will be unaccessable
 
 
 
