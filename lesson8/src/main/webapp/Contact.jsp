@@ -1,9 +1,13 @@
-
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
 <html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Contact</title>
+</head>
 <body>
-<h2>Hello World!</h2>
 
-<img src="https://vignette.wikia.nocookie.net/en.futurama/images/d/da/Fry_Looking_Squint.jpg/revision/latest/zoom-crop/width/240/height/240?cb=20110701192358">
 
 	<ul>
 		<li>
@@ -22,11 +26,7 @@
 			<a class="pureCssMenui" href="src/main/webapp/Login.jsp">Log In</a>
 		</li>
 	</ul>
+
+
 </body>
 </html>
-
-
-
-
-
-
