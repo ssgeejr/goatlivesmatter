@@ -1,32 +1,21 @@
 
 <html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="north.css"/>
+<style type="text/css">
+
+</style>
+</head>
+
 <body>
-<h2>Hello World!</h2>
+<h2 class="auto-style2">
+<img alt="" height="101" src="Images/814North.JPG" width="355"></h2>
 
-<img src="https://vignette.wikia.nocookie.net/en.futurama/images/d/da/Fry_Looking_Squint.jpg/revision/latest/zoom-crop/width/240/height/240?cb=20110701192358">
-
-	<ul>
-		<li>
-			<a class="pureCssMenui" href="src/main/webapp/index.jsp">Home</a>
-		</li>
-		<li>
-			<a class="pureCssMenui" href="src/main/webapp/About.jsp">About</a>
-		</li>
-		<li>
-			<a class="pureCssMenui" href="src/main/webapp/Services.jsp">Services</a>
-		</li>
-		<li>
-			<a class="pureCssMenui" href="src/main/webapp/Contact.jsp">Contact Us</a>
-		</li>
-		<li>
-			<a class="pureCssMenui" href="src/main/webapp/Login.jsp">Log In</a>
-		</li>
-	</ul>
+<p class="auto-style1"><a class="pureCssMenui" href="index.jsp">Home</a> |
+<a class="pureCssMenui" href="About.jsp">About</a> |
+<a class="pureCssMenui" href="Services.jsp">Services</a> |
+<a class="pureCssMenui" href="Contact.jsp">Contact Us</a> |
+<a class="pureCssMenui" href="Login.jsp">Log In</a> </p>
 </body>
 </html>
-
-
-
-
-
-
