@@ -6,10 +6,19 @@
 <link rel="stylesheet" type="text/css" href="north.css"/>
 <meta charset="ISO-8859-1">
 <title>Contact</title>
+<style type="text/css">
+.auto-style3 {
+	text-align: center;
+}
+</style>
 </head>
 <body>
 <h2 class="auto-style2">
-<img alt="" height="101" src="Images/814North.JPG" width="355"></h2>
+		Contact Information&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<img alt="" height="50" src="Images/814North.JPG" width="175">
+	</h2>
+	<h2 class="auto-style3">
+		&nbsp;</h2>
 
 <p class="auto-style1"><a class="pureCssMenui" href="index.jsp">Home</a> |
 <a class="pureCssMenui" href="About.jsp">About</a> |
