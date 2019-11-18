@@ -40,17 +40,23 @@
 <p class="auto-style4">&nbsp;</p>
 <p class="auto-style4">&nbsp;Username: </p>
 <p class="auto-style4">&nbsp;&nbsp;
-<input name="username" type="text">&nbsp;</p>
+<input name="username" type="text" style="background-color: #FFFFCC">&nbsp;</p>
 <p class="auto-style4">&nbsp;Password:</p>
 <p class="auto-style4">&nbsp;
-<input name="password" type="password"></p>
+<input name="password" type="password" style="background-color: #FFFFCC"></p>
 <p class="auto-style4">&nbsp;Re-enter password:</p>
 <p class="auto-style4">&nbsp;
-<input name="password2" type="password"></p>
+<input name="password2" type="password" style="background-color: #FFFFCC"></p>
 <p class="auto-style1">&nbsp;<span class="auto-style7">Email:</span></p>
-<p class="auto-style1">&nbsp; <input name="email" type="email"></p>
+<p class="auto-style1">&nbsp; 
+<input name="email" type="email" style="background-color: #FFFFCC"></p>
 <p class="auto-style6">&nbsp;</p>
-<p class="auto-style1"><input name="confrimBtn" type="button" value="Sign Up">&nbsp;</p>
+
+
+<p class="auto-style1"><input name="confrimBtn" type="button" onclick="location.href='confirmEmail.jsp'"value="Sign Up">&nbsp;</p>
+
+
+<p class="auto-style1"><input name="backToHome" type="button" onclick="location.href='index.jsp'" value="Cancel">&nbsp;</p>
 <p class="auto-style1">&nbsp;</p>
 <p class="auto-style1">&nbsp;</p>
 <p class="auto-style1">&nbsp;</p>
