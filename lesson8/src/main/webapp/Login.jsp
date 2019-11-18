@@ -10,19 +10,19 @@
 .auto-style3 {
 	text-align: center;
 }
+.auto-style5 {
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1px 4px;
+	font-size: x-large;
+}
 </style>
 </head>
 <body>
 	<h2 class="auto-style2">
-		&nbsp;Log in&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		&nbsp;&nbsp;&nbsp;
-		<img alt="" height="50" src="Images/814North.JPG" width="175"></h2>
+		&nbsp;<img alt="" height="50" src="Images/814North.JPG" width="175"></h2>
 
-	<p class="auto-style3">
-		&nbsp;</p>
-	
 	<p class="auto-style1">
 		<a class="pureCssMenui" href="index.jsp">Home</a> | <a
 			class="pureCssMenui" href="About.jsp">About</a> | <a
@@ -30,6 +30,10 @@
 			class="pureCssMenui" href="Contact.jsp">Contact Us</a> | <a>Log
 			In</a>
 	</p>
+	<p class="auto-style3">
+		&nbsp;</p>
+	<p class="auto-style5">
+		Log In</p>
 	<p class="auto-style3">&nbsp;</p>
 	<p class="auto-style3">&nbsp;</p>
 	<p class="auto-style3">&nbsp;</p>
