@@ -21,5 +21,18 @@ Assign the response to a variable 'testresult' and print it out to both the serv
 sample: ...  new DataManager().connectionTest("test");
 
 
+### phase 3
+
+create a new table in mysql:  
+name: menu
+column1: menuid int not null auto-increment
+column2: menu_name varchar(16) not null 
+
+insert into the table the menus we currently use today. Add a method to your DataManager, fetchMenus that returns and String of html that has your menus from teh database in it. 
+
+
+
+
+
 
 
