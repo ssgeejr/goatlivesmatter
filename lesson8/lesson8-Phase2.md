@@ -16,7 +16,9 @@ Check on your lesson 7 project to add your import of mysql to your pom file. onc
 	
 After we have this, we'll add the code to the JSP and test connectivity 
 
-
+in the connectionTest method, change the return type to "String" and add a return of "SUCCESS" to the code bock
+Assign the response to a variable 'testresult' and print it out to both the server console and the web-page
+sample: ...  new DataManager().connectionTest("test");
 
 
 
