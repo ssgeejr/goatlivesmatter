@@ -1,30 +1,40 @@
+<%@ page import="com.north.webapp.DataManager"%>
+<%
+String results = "";
 
+try{
+	results = new DataManager().connectionTest("mysql");
+	system.out.println();
+}catch(Exception ex){
+	out.println("<br><font color=red>" + ex.getMessage() + "</font><br>");
+}
+
+
+%>
 <html>
 
 <head>
 <link rel="stylesheet" type="text/css" href="north.css" />
 <style type="text/css">
-.auto-style3 {
-	text-align: center;
-}
+
 </style>
 </head>
 
 <body>
-	<h2 class="auto-style2">
+	<h2 class="alignRight">
 		<img alt="" height="50" src="Images/814North.JPG" width="175">
 	</h2>
 
-	<p class="auto-style1">
+	<p class="centerSolid">
 		<a class="pureCssMenui" href="index.jsp">Home</a> | <a
 			class="pureCssMenui" href="About.jsp">About</a> | <a
 			class="pureCssMenui" href="Services.jsp">Services</a> | <a
 			class="pureCssMenui" href="Contact.jsp">Contact Us</a> | <a
 			class="pureCssMenui" href="Login.jsp">Log In</a>
 	</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum 
 	nibh eros, a semper lacus vehicula ac. Nunc nisi nisi, varius dapibus 
@@ -118,11 +128,11 @@
 	magna sodales pulvinar. Sed dignissim erat vitae risus scelerisque euismod. 
 	Vestibulum tincidunt erat ac tincidunt tempor. Fusce in turpis eget risus 
 	congue cursus. Phasellus at faucibus nulla.</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
 </body>
 </html>

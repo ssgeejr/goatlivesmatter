@@ -7,38 +7,25 @@
 <meta charset="ISO-8859-1">
 <title>Services</title>
 <style type="text/css">
-.auto-style3 {
-	text-align: center;
-}
-.auto-style5 {
-	text-align: center;
-	border-style: solid;
-	border-width: 1px;
-	padding: 1px 4px;
-	font-size: x-large;
-}
-.auto-style6 {
-	text-align: center;
-	font-size: x-large;
-}
+
 </style>
 </head>
 <body>
-	<h2 class="auto-style2">
+	<h2 class="alignRight">
 		<img alt="" height="50" src="Images/814North.JPG" width="175">
 	</h2>
 
-	<p class="auto-style1">
+	<p class="centerSolid">
 		<a class="pureCssMenui" href="index.jsp">Home</a> | <a
 			class="pureCssMenui" href="About.jsp">About</a> | <a>Services</a> | <a
 			class="pureCssMenui" href="Contact.jsp">Contact Us</a> | <a
 			class="pureCssMenui" href="Login.jsp">Log In</a>
 	</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
-	<p class="auto-style5">
+	<p class="centerBorder">
 		What do we do?</p>
-	<p class="auto-style6">
+	<p class="alignLeft">
 		&nbsp;</p>
 	<ul>
 		<li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
@@ -164,7 +151,7 @@
 		tempor. Fusce in turpis eget risus congue cursus. Phasellus at faucibus 
 		nulla.</li>
 	</ul>
-	<p class="auto-style6">
+	<p class="alignLeft">
 		&nbsp;</p>
 </body>
 </html>

@@ -1,12 +1,52 @@
-.auto-style1 {
+.centerSolid {
 	text-align: center;
 	border-style: solid;
 	border-width: 1px;
 	padding: 1px 4px;
 }
-.auto-style2 {
+
+
+.alignRight {
 	text-align: right;
 }
 
+
+.alignCenter {
+	text-align: center;
+}
+
+
+.largeCenter {
+	text-align: center;
+	font-size: x-large;
+}
+
+
+.centerBorder {
+	text-align: center;
+	border-style: solid;
+	border-width: 1px;
+	padding: 1px 4px;
+	font-size: x-large;
+}
+
+
+.alignLeft {
+	text-align: left;
+}
+
+
+.largeFont {
+	font-size: x-large;
+}
+
+
+.border {
+	border-style: solid;
+	border-width: 1px;
+	padding: 1px 4px;
+	text-align: center;
+	font-size: x-large;
+}
 
 

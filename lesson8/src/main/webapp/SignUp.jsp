@@ -3,66 +3,47 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" type="text/css" href="north.css" />
 <meta charset="ISO-8859-1">
 <title>Sign up!</title>
 <style type="text/css">
-.auto-style1 {
-	text-align: center;
-}
-.auto-style2 {
-	text-align: right;
-}
-.auto-style4 {
-	text-align: center;
-	font-size: x-large;
-}
-.auto-style6 {
-	text-align: left;
-}
-.auto-style7 {
-	font-size: x-large;
-}
-.auto-style8 {
-	border-style: solid;
-	border-width: 1px;
-	padding: 1px 4px;
-	text-align: center;
-	font-size: x-large;
-}
+
+
+
 </style>
 </head>
 <body>
 
-<p class="auto-style2">
+<p class="alignRight">
 <img alt="" height="50" src="Images/814North.JPG" width="175"></p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style8">Sign Up</p>
-<p class="auto-style4">&nbsp;</p>
-<p class="auto-style4">&nbsp;Username: </p>
-<p class="auto-style4">&nbsp;&nbsp;
+<p class="centerSolid">&nbsp;</p>
+<p class="border">Sign Up</p>
+<p class="largeCenter">&nbsp;</p>
+<p class="largeCenter">&nbsp;Username: </p>
+<p class="largeCenter">&nbsp;&nbsp;
 <input name="username" type="text" style="background-color: #FFFFCC">&nbsp;</p>
-<p class="auto-style4">&nbsp;Password:</p>
-<p class="auto-style4">&nbsp;
+<p class="largeCenter">&nbsp;Password:</p>
+<p class="largeCenter">&nbsp;
 <input name="password" type="password" style="background-color: #FFFFCC"></p>
-<p class="auto-style4">&nbsp;Re-enter password:</p>
-<p class="auto-style4">&nbsp;
+<p class="largeCenter">&nbsp;Re-enter password:</p>
+<p class="largeCenter">&nbsp;
 <input name="password2" type="password" style="background-color: #FFFFCC"></p>
-<p class="auto-style1">&nbsp;<span class="auto-style7">Email:</span></p>
-<p class="auto-style1">&nbsp; 
+<p class="centerSolid">&nbsp;<span class="largeFont">Email:</span></p>
+<p class="centerSolid">&nbsp; 
 <input name="email" type="email" style="background-color: #FFFFCC"></p>
-<p class="auto-style6">&nbsp;</p>
+<p class="alignLeft">&nbsp;</p>
 
 
-<p class="auto-style1"><input name="confrimBtn" type="button" onclick="location.href='confirmEmail.jsp'"value="Sign Up">&nbsp;</p>
+<p class="centerSolid"><input name="confrimBtn" type="button" onclick="location.href='confirmEmail.jsp'"value="Sign Up">&nbsp;</p>
 
 
-<p class="auto-style1"><input name="backToHome" type="button" onclick="location.href='index.jsp'" value="Cancel">&nbsp;</p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style1">&nbsp;</p>
-<p class="auto-style1">
+<p class="centerSolid"><input name="backToHome" type="button" onclick="location.href='index.jsp'" value="Cancel">&nbsp;</p>
+<p class="centerSolid">&nbsp;</p>
+<p class="centerSolid">&nbsp;</p>
+<p class="centerSolid">&nbsp;</p>
+<p class="centerSolid">&nbsp;</p>
+<p class="centerSolid">&nbsp;</p>
+<p class="centerSolid">
 &nbsp;</p>
 
 </body>

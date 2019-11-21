@@ -8,46 +8,28 @@
 <meta charset="ISO-8859-1">
 <title>About</title>
 <style type="text/css">
-.auto-style3 {
-	text-align: center;
-}
-.auto-style4 {
-	text-align: center;
-	border-style: solid;
-	border-width: 1px;
-	padding: 1px 4px;
-	font-size: x-large;
-}
-.auto-style5 {
-	text-align: center;
-	font-size: x-large;
-}
-.auto-style6 {
-	border-style: solid;
-	border-width: 1px;
-	padding: 1px 4px;
-}
+
 </style>
 </head>
 <body>
 
-	<h2 class="auto-style2">
+	<h2 class="alignRight">
 		<img alt="" height="50" src="Images/814North.JPG" width="175">
 	</h2>
 
-	<p class="auto-style1">
+	<p class="centerSolid">
 		<a class="pureCssMenui" href="index.jsp">Home</a> | <a>About</a> | <a
 			class="pureCssMenui" href="Services.jsp">Services</a> | <a
 			class="pureCssMenui" href="Contact.jsp">Contact Us</a> | <a
 			class="pureCssMenui" href="Login.jsp">Log In</a>
 	</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
-	<p class="auto-style4">
+	<p class="largeCenter">
 		About the 814 North family</p>
-	<p class="auto-style5">
+	<p class="centerBorder">
 		&nbsp;</p>
-	<p class="auto-style6">Lorem ipsum dolor sit amet, consectetur adipiscing 
+	<p class="alignLeft">Lorem ipsum dolor sit amet, consectetur adipiscing 
 	elit. Sed elementum nibh eros, a semper lacus vehicula ac. Nunc nisi nisi, 
 	varius dapibus laoreet sit amet, maximus id lorem. Etiam vel convallis 
 	felis. Nam in tincidunt ex, nec maximus odio. Quisque dictum, massa vel 
@@ -55,13 +37,13 @@
 	dapibus velit. In eu arcu consectetur, viverra tortor sed, sagittis quam. 
 	Vivamus facilisis lacinia sapien a condimentum. Nullam tincidunt dui vitae 
 	consequat condimentum.</p>
-	<p class="auto-style6">Donec egestas tincidunt leo, quis interdum nisi 
+	<p class="alignLeft">Donec egestas tincidunt leo, quis interdum nisi 
 	dictum ut. Quisque maximus feugiat nisi, in ullamcorper tortor auctor in. 
 	Nam lobortis cursus semper. Integer ut maximus risus. Orci varius natoque 
 	penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus 
 	sed tellus at ligula egestas commodo. Nulla at molestie massa. Proin finibus 
 	eros lectus, in rhoncus tellus condimentum quis.</p>
-	<p class="auto-style6">Nam et volutpat libero. Aenean malesuada non lacus id 
+	<p class="alignLeft">Nam et volutpat libero. Aenean malesuada non lacus id 
 	auctor. Mauris dignissim id sem nec molestie. Vestibulum ultricies justo id 
 	nibh viverra tincidunt. Quisque libero metus, consequat sed posuere 
 	condimentum, tempus et lacus. Aliquam interdum, mi sit amet sollicitudin 
@@ -75,7 +57,7 @@
 	augue. Nullam convallis nisl eu massa posuere sodales. Nulla neque mauris, 
 	euismod id accumsan ac, laoreet non nibh. Donec pulvinar pulvinar risus eu 
 	cursus.</p>
-	<p class="auto-style6">Maecenas commodo vestibulum suscipit. Vivamus at 
+	<p class="alignLeft">Maecenas commodo vestibulum suscipit. Vivamus at 
 	commodo lorem, eu interdum velit. Sed velit enim, varius id quam posuere, 
 	mollis ornare ante. Maecenas blandit tempor interdum. Ut lobortis ornare 
 	felis, id imperdiet lacus tempor eu. Suspendisse elementum eros eu lacus 
@@ -83,7 +65,7 @@
 	fermentum. Donec at efficitur nisl. Nullam sodales a felis a tempor. 
 	Phasellus faucibus magna et dolor suscipit, sed egestas purus rutrum. Nam 
 	lobortis tortor eu sem mattis, imperdiet convallis orci ullamcorper.</p>
-	<p class="auto-style6">Duis vehicula, mauris sed tempus dictum, dolor augue 
+	<p class="alignLeft">Duis vehicula, mauris sed tempus dictum, dolor augue 
 	suscipit justo, id eleifend ante mi sit amet leo. Donec ligula felis, tempus 
 	sit amet aliquet non, mollis quis mauris. In ac turpis sit amet lorem tempus 
 	varius. Cras in arcu ullamcorper, facilisis augue eu, convallis diam. 
@@ -92,7 +74,7 @@
 	sem vel arcu. Proin interdum sapien eros, eu feugiat dui aliquet sit amet. 
 	Quisque nec hendrerit turpis. Duis felis mi, lobortis sit amet eros 
 	venenatis, mollis maximus tellus.</p>
-	<p class="auto-style6">Vestibulum dictum leo et bibendum varius. Suspendisse 
+	<p class="alignLeft">Vestibulum dictum leo et bibendum varius. Suspendisse 
 	finibus viverra justo, sit amet pellentesque tellus suscipit sit amet. 
 	Vestibulum finibus nunc malesuada imperdiet pretium. Etiam eget sollicitudin 
 	purus. Pellentesque felis eros, convallis et molestie nec, finibus at magna. 
@@ -101,7 +83,7 @@
 	fringilla laoreet. Sed lacinia dapibus malesuada. Nunc dapibus libero eu 
 	purus condimentum fringilla. Maecenas nisi urna, egestas nec dolor quis, 
 	vehicula posuere tortor. Aliquam euismod pretium cursus.</p>
-	<p class="auto-style6">Pellentesque tincidunt ex et sollicitudin dapibus. 
+	<p class="alignLeft">Pellentesque tincidunt ex et sollicitudin dapibus. 
 	Sed consequat eget est sit amet venenatis. Suspendisse feugiat, arcu non 
 	tempor consectetur, ligula arcu scelerisque ligula, in tempus odio libero 
 	nec metus. Sed ut leo at leo hendrerit suscipit vitae in ex. In bibendum mi 
@@ -113,7 +95,7 @@
 	vehicula massa blandit vel. Nam semper erat a massa feugiat, ut cursus lorem 
 	elementum. In ornare magna eu magna molestie congue. Quisque blandit 
 	dignissim condimentum. Cras vitae odio lorem.</p>
-	<p class="auto-style6">In vel efficitur massa. Suspendisse cursus 
+	<p class="alignLeft">In vel efficitur massa. Suspendisse cursus 
 	consectetur tortor, ac fermentum metus auctor quis. Aenean pretium dapibus 
 	libero in aliquam. Donec eu tellus malesuada, tempus mi vel, commodo orci. 
 	Ut suscipit risus erat, vitae accumsan metus venenatis eget. Aenean et 
@@ -124,13 +106,13 @@
 	augue suscipit convallis pharetra ut elit. Etiam eget molestie tortor. In 
 	non fringilla ligula. Proin in turpis a nulla maximus facilisis. Cras et 
 	dolor eget lorem pharetra mollis.</p>
-	<p class="auto-style6">Cras in felis posuere, facilisis risus nec, bibendum 
+	<p class="alignLeft">Cras in felis posuere, facilisis risus nec, bibendum 
 	lorem. Mauris ullamcorper ligula eu tellus molestie ultricies. Fusce erat 
 	arcu, vulputate ut vehicula ac, eleifend vel risus. Proin faucibus felis vel 
 	pretium placerat. Aliquam finibus, diam in eleifend facilisis, tortor nibh 
 	dignissim metus, id facilisis elit mi id ligula. In commodo feugiat dui at 
 	dignissim. Donec et dictum lacus.</p>
-	<p class="auto-style6">Duis gravida dolor sed mauris fermentum, in ornare 
+	<p class="alignLeft">Duis gravida dolor sed mauris fermentum, in ornare 
 	libero eleifend. Curabitur urna mauris, rhoncus id blandit in, rhoncus ut 
 	ipsum. Curabitur fermentum quam sit amet mi rutrum, sed mattis nunc 
 	convallis. Mauris et efficitur leo. Morbi pretium urna in sagittis mollis. 
@@ -140,7 +122,7 @@
 	tincidunt tortor quis magna sodales pulvinar. Sed dignissim erat vitae risus 
 	scelerisque euismod. Vestibulum tincidunt erat ac tincidunt tempor. Fusce in 
 	turpis eget risus congue cursus. Phasellus at faucibus nulla.</p>
-	<p class="auto-style3">
+	<p class="alignCenter">
 		&nbsp;</p>
 </body>
 </html>
