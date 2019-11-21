@@ -12,7 +12,7 @@ public class DataManager {
 	}
 	
 	
-	public void login(String username, String password) {
+	public void login(String username, String password) throws Exception {
 		
 	}
 	
@@ -23,8 +23,28 @@ public class DataManager {
 	
 	
 	public void fetchContent(int id) {
-		
+		openConnection();
+ 		
+ 		}catch(Exception ex){
+ 			ex.printStackTrace();
+ 		}finally{
+ 			closeConnection();
+ 		}
 	}
 	
+	public String fetchMenus(String html) {
+		
+		openConnection();
+ 		
+		}catch(Exception ex){
+			return result.toString();
+		}finally{
+			closeConnection();
+		}
+	}
+	
+	private void openConnection() throws Exception{
+		
+	}
 	
 }
