@@ -25,10 +25,9 @@
 	</p>
 	<p class="alignCenter">
 		&nbsp;</p>
-	<p class="largeCenter">
-		About the 814 North family</p>
 	<p class="centerBorder">
-		&nbsp;</p>
+		About the 814 North family</p>
+		<p class="alignLeft">&nbsp;</p>
 	<p class="alignLeft">Lorem ipsum dolor sit amet, consectetur adipiscing 
 	elit. Sed elementum nibh eros, a semper lacus vehicula ac. Nunc nisi nisi, 
 	varius dapibus laoreet sit amet, maximus id lorem. Etiam vel convallis 

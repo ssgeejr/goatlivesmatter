@@ -4,9 +4,10 @@ String results = "";
 
 try{
 	results = new DataManager().connectionTest("mysql");
-	system.out.println();
+	System.out.println(results);
+	out.println(results);
 }catch(Exception ex){
-	out.println("<br><font color=red>" + ex.getMessage() + "</font><br>");
+	out.println("<br><font color=green>" + ex.getMessage() + "</font><br>");
 }
 
 
