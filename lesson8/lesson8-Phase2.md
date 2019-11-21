@@ -30,6 +30,10 @@ column2: menu_name varchar(16) not null
 
 insert into the table the menus we currently use today. Add a method to your DataManager, fetchMenus that returns and String of html that has your menus from teh database in it. 
 
+create a new method openConnection, make it private and allow it to set a global Connection object. 
+each of your fetch methods should obtain a connection by first calling the openConnection method and be responsible for closing the connection upon exiting in the finally catch.  
+
+All calls that include the databasse need to throw Exception 
 
 
 
