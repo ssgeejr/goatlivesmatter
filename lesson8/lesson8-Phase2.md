@@ -32,7 +32,27 @@ insert into the table the menus we currently use today. Add a method to your Dat
 create a new method openConnection, make it private and allow it to set a global Connection object. 
 each of your fetch methods should obtain a connection by first calling the openConnection method and be responsible for closing the connection upon exiting in the finally catch.  
 
-All calls that include the databasse need to throw Exception 
+All calls that include the databasse need to throw Exception .
+
+
+Menu Table:
+
+table name: menu
+columns:
+menuid	int auto-increment
+menu_order int not null unique 
+name	varchar(16) not null
+description	varchar(64) not null 
+
+
+
+
+
+
+
+
+
+
 
 
 
