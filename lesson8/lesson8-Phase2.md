@@ -20,7 +20,6 @@ in the connectionTest method, change the return type to "String" and add a retur
 Assign the response to a variable 'testresult' and print it out to both the server console and the web-page
 sample: ...  new DataManager().connectionTest("test");
 
-
 ### phase 3
 
 create a new table in mysql:  
@@ -34,9 +33,6 @@ create a new method openConnection, make it private and allow it to set a global
 each of your fetch methods should obtain a connection by first calling the openConnection method and be responsible for closing the connection upon exiting in the finally catch.  
 
 All calls that include the databasse need to throw Exception 
-
-
-
 
 
 
