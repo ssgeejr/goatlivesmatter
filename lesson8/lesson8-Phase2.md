@@ -42,8 +42,11 @@ columns:
 menuid	int auto-increment
 menu_order int not null unique 
 name	varchar(16) not null
+url	varchar(256) not null
 description	varchar(64) not null 
 
+
+Using a single JSP page, replace the menu section on yo0ur website with a data-drivern menu jsp.  You can do this by including a JSP page and having that JSP page handle the call to the database. 
 
 
 
