@@ -27,11 +27,7 @@ try{
 	</h2>
 
 	<p class="centerSolid">
-		<a class="pureCssMenui" href="index.jsp">Home</a> | <a
-			class="pureCssMenui" href="About.jsp">About</a> | <a
-			class="pureCssMenui" href="Services.jsp">Services</a> | <a
-			class="pureCssMenui" href="Contact.jsp">Contact Us</a> | <a
-			class="pureCssMenui" href="Login.jsp">Log In</a>
+		<%@ include file="Menu.jsp" %>
 	</p>
 	<p class="alignCenter">
 		&nbsp;</p>

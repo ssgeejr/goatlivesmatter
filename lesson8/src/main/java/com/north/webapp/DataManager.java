@@ -97,8 +97,8 @@ public class DataManager {
 
 	
 
-	public String fetchMenus(String html) {
-
+	public String fetchMenus() {
+		StringBuffer html = new StringBuffer();
 		try {
 			openConnection();
 		} catch (Exception ex) {
@@ -107,7 +107,7 @@ public class DataManager {
 		} finally {
 			closeConnection();
 		}
-		return html;
+		return html.toString();
 	}
 	
 	private void closeConnection() {
