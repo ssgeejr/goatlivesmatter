@@ -12,16 +12,15 @@
 </head>
 <body>
 
-<p class="centerSolid">
+<p class="largeCenter">
 <img alt="" height="50" src="Images/814North.JPG" width="175"></p>
-<p class="alignRight">Email Confirmation&nbsp; </p>
 <p class="alignCenter">&nbsp;</p>
 <p class="centerBorder">Please check email for confirmation code!</p>
-<p class="centerBorder">&nbsp;</p>
-<p class="centerBorder">
+<p class="largeCenter">&nbsp;</p>
+<p class="largeCenter">
 <input name="confirmationCode" style="width: 196px; height: 46px; background-color: #FFFFCC; font-size: x-large;" type="text" value="Code">&nbsp;</p>
-<p class="centerBorder">&nbsp;</p>
-<p class="centerBorder">
+<p class="largeCenter">&nbsp;</p>
+<p class="largeCenter">
 
 
 
