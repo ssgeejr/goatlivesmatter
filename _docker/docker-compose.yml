@@ -8,8 +8,8 @@ services:
     restart: always
     ports:
       - 80:8080
-    depends:
-       mysql
+    depends_on:
+      - mysql
       
   mysql:
     image: mysql/mysql-server:5.5
