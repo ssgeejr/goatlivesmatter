@@ -5,6 +5,7 @@ import java.sql.*;
 public class DataManager {
 	private Connection conn = null;
 	
+	public DataManager(){}
 
 	public DataManager(boolean doTest) {
 		// TODO Auto-generated constructor stub

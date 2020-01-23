@@ -1,9 +1,13 @@
 #!/bin/bash
 
+
 git checkout docker
 git pull origin docker
 
 cd _docker
+
+rm -rf glm.war 
+
 docker-compose down
 
 cd ../lesson8
@@ -14,8 +18,7 @@ cd ../_docker
 
 docker build -t trasely .
 
-
-
+docker-compose up -d && docker-compose logs -f
 
 
 
