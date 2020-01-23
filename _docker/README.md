@@ -1,3 +1,17 @@
+
+
+/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 3306 -j ACCEPT
+/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 80 -j ACCEPT
+
+iptables -A INPUT -i eth0 -p tcp --destination-port 8080 -j ACCEPT
+
+
+#DIDN'T WORK
+iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080
+iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+
+
+
 https://www.locked.de/how-to-run-tomcat-on-port-80/
 
   mysql:
