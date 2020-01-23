@@ -1,14 +1,15 @@
 
-
-/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 3306 -j ACCEPT
-/sbin/iptables -A INPUT -i eth0 -p tcp --destination-port 80 -j ACCEPT
-
+#To add a rule
+iptables -A INPUT -i eth0 -p tcp --destination-port 80 -j ACCEPT
 iptables -A INPUT -i eth0 -p tcp --destination-port 8080 -j ACCEPT
-
-
-#DIDN'T WORK
-iptables -t nat -A OUTPUT -o lo -p tcp --dport 80 -j REDIRECT --to-port 8080
+iptables -A INPUT -i eth0 -p tcp --destination-port 3306 -j ACCEPT
 iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+
+#To remote a rule
+iptables -D INPUT -i eth0 -p tcp --destination-port 8080 -j ACCEPT
+
+#used to add the mysql library to tomcat
+https://repo1.maven.org/maven2/mysql/mysql-connector-java/5.1.44/mysql-connector-java-5.1.44.jar
 
 
 
