@@ -1,16 +1,5 @@
 version: '3'
 services:
-  tomcat:
-    image: trasely
-    container_name: tcat
-    tty: true
-    stdin_open: true
-    restart: always
-    ports:
-      - 80:8080
-    depends_on:
-      - mysql
-      
   mysql:
     image: mysql/mysql-server:5.5
     container_name: mysql
@@ -24,4 +13,3 @@ services:
     volumes:
       - /opt/mysql/datadir:/var/lib/mysql
       
-#docker pull mysql/mysql-server
