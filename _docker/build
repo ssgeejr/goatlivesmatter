@@ -1,10 +1,19 @@
 #!/bin/bash
 
+git checkout docker
+git pull origin docker
+
+cd _docker
 docker-compose down
+
+cd ../lesson8
+mvn clean package
+cp target/lesson8.war ../_docker/glm.war
+cd ../_docker
+
 
 docker build -t trasely .
 
-git@github.com:ssgeejr/goatlivesmatter.git
 
 
 
