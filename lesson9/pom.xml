@@ -15,6 +15,7 @@
 	<modules>
 		<module>service</module>
 		<module>webapp</module>
+		<module>testharness</module>
 	</modules>
 
 </project>
