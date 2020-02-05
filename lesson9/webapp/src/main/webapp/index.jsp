@@ -1,18 +1,3 @@
-<%@ page import="com.north.webapp.DataManager"%>
-<%
-String results = "";
-
-try{
-	results = new DataManager().connectionTest("mysql");
-	System.out.println(results);
-	out.println(results);
-}catch(Exception ex){
-	out.println("<br><font color=green>" + ex.getMessage() + "</font><br>");
-}
-
-
-%>
-
 <html>
 
 <head>
@@ -28,7 +13,7 @@ try{
 	</h2>
 
 	<p class="centerSolid">
-		<%@ include file="Menu.jsp" %>
+		<%@ include file="http://localhost:8088/service/Menu.jsp" %>
 	</p>
 	<p class="alignCenter">
 		&nbsp;</p>

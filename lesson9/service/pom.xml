@@ -6,7 +6,7 @@
 	<artifactId>service</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>814north Webapp</name>
+	<name>814north Service</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
