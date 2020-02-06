@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+<%@ page import="java.net.*,java.io.*"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +13,24 @@
 		&nbsp;<img alt="" height="50" src="Images/814North.JPG" width="175">
 	</h2>
 	<p class="centerSolid">
-		<%@ include file="Menu.jsp"%>
+
+		<% try {
+			// put your code in here and test it
+			System.out.println("This is where you'll test your code to call the remote url");
+			// you will want to google read remote URL with java
+			//this is a guess ... try it out, get it to work - then move this code (google how to include your imports) and add it to your index.jsp (and others)
+			// once this works - it's all over except dockerizing it and building it with Jenkins
+			
+			URL oracle = new URL("http://localhost:8088/service/Menu.jsp");
+	        BufferedReader in = new BufferedReader(new InputStreamReader(oracle.openStream()));
+	        String inputLine;
+	        while ((inputLine = in.readLine()) != null)
+	            out.println(inputLine);
+	        in.close();
+	        
+		}catch(Exception ex) {
+			ex.printStackTrace();
+		}%>
 	</p>
 
 	<!-- 	<p class="centerSolid"> -->

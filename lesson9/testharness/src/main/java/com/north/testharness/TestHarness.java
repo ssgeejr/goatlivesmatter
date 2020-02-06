@@ -3,6 +3,7 @@ package com.north.testharness;
 import java.net.*;
 import java.io.*;
 
+
 public class TestHarness {
 
 	public TestHarness() {
@@ -13,7 +14,7 @@ public class TestHarness {
 			//this is a guess ... try it out, get it to work - then move this code (google how to include your imports) and add it to your index.jsp (and others)
 			// once this works - it's all over except dockerizing it and building it with Jenkins
 			
-			URL oracle = new URL("http://localhost:8088/webapp/Menu.jsp");
+			URL oracle = new URL("http://localhost:8088/service/Menu.jsp");
 	        BufferedReader in = new BufferedReader(new InputStreamReader(oracle.openStream()));
 	        String inputLine;
 	        while ((inputLine = in.readLine()) != null)
