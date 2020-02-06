@@ -1,7 +1,7 @@
 version: '3.2'
 services:
   webapp:
-    image: tomcat:8.5
+    image: glm:webapp
     container_name: webapp
     tty: true
     stdin_open: true
@@ -9,7 +9,7 @@ services:
     depends_on:
       - service
   service:
-    image: tomcat:8.5
+    image: glm:service
     container_name: service
     tty: true
     stdin_open: true
