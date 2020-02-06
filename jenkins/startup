@@ -3,5 +3,5 @@
 JENKINS_HOME=/opt/jenkins/data
 export JENKINS_HOME
 #java -jar jenkins.war
-nohup java -jar jenkins.war > logs/jenkins.log 2>&1
+nohup java -jar jenkins.war > logs/jenkins.log 2>&1 &
 
