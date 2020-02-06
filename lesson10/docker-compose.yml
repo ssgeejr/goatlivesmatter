@@ -7,25 +7,37 @@ services:
     stdin_open: true
     restart: always
     depends_on:
-      - service
+      - microservice
     ports:
       - 80:8080
-  service:
+  microservice:
     image: glm:service
-    container_name: service
+    container_name: microservice
     tty: true
     stdin_open: true
     restart: always
     depends_on:
-      - mysql
-  mysql:
+      - mysqldb
+  mysqlcli:
     image: mysql/mysql-server:5.5
-    container_name: mysql
+    container_name: mysqlcli
     tty: true
     stdin_open: true
     restart: always
-    ports:
-      - 3306:3306
+#    ports:
+#      - 3306:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+    depends_on:
+      - mysqldb
+  mysqldb:
+    image: mysql/mysql-server:5.5
+    container_name: mysqldb
+    tty: true
+    stdin_open: true
+    restart: always
+#    ports:
+#      - 3306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=password
     volumes:

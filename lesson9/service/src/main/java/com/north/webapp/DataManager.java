@@ -124,7 +124,7 @@ public class DataManager {
 		System.out.println("openConnection");
 
 		Class.forName("com.mysql.jdbc.Driver");
-		conn = DriverManager.getConnection("jdbc:mysql://mysql:3306/glm", "timmy", "thegoat");
+		conn = DriverManager.getConnection("jdbc:mysql://mysqldb:3306/glm", "timmy", "thegoat");
 
 	}
 
