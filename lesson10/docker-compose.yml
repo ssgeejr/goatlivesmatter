@@ -7,12 +7,12 @@ services:
     stdin_open: true
     restart: always
     depends_on:
-      - microservice
+      - service
     ports:
       - 80:8080
-  microservice:
+  service:
     image: glm:service
-    container_name: microservice
+    container_name: service
     tty: true
     stdin_open: true
     restart: always
