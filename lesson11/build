@@ -3,7 +3,7 @@ echo "building GoatLivesMatter"
 echo "current directory"
 pwd
 echo "changing to lesson 9 directory"
-cd ../
+cd ..
 pwd
 cd lesson9
 pwd
@@ -11,7 +11,13 @@ mvn clean package
 cp webapp/target/webapp.war ../lesson11/webapp
 cp service/target/service.war ../lesson11/service
 echo "changing back to lesson11 directory"
-cd ../
+cd ..
 pwd
 cd lesson11
 pwd
+echo "Dockerfile build"
+cd service
+docker build -t glm:service .
+cd ../webapp
+docker build -t glm:webapp .
+cd ..
