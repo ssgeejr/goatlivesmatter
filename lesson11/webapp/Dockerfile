@@ -1,6 +1,6 @@
 FROM tomcat:8.5
 
-LABEL maintainer=""
+LABEL maintainer="David Thomas"
 LABEL version="GoatLivesMatter:WebApp:1.1"
 
 
